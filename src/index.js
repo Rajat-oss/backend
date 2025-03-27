@@ -24,10 +24,14 @@ connectDB()
 
 
 
+<<<<<<< HEAD
 
 
 
 /*
+=======
+/* 
+>>>>>>> 9d7bbf4e4393f2d88b13906ee48c90f08fd99e50
 import express from "express"
 const app = express()
 ( async () => {
