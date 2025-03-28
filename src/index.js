@@ -6,6 +6,15 @@ dotenv.config({
     path: './.env'
 })
 
+import cookieParser from "cookie-parser";
+app.use(cookieParser());
+
+
+
+dotenv.config({
+    path: './.env'
+})
+
 
 
 connectDB()
@@ -21,10 +30,6 @@ connectDB()
 
 
 
-
-
-
-<<<<<<< HEAD
 
 
 
